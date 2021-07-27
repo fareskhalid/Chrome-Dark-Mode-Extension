@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Dark Mode",
+    "version": "0.1",
+    "description": "Make any site at Dark Mode Automatically",
+    "background": {
+        "presistent": true,
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ]
+}
